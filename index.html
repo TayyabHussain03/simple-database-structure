@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+    <h2>Signup Page</h2>
+
+    <div class="input_area">
+        <p>Name:</p>
+        <input type="text" name="userName" id="userName" placeholder="Enter Your Name Here"><br />
+        <p>Contact:</p>
+        <input type="text" name="userNumber" id="userNumber" minlength="13" placeholder="Enter Your Contact Here"><br />
+        <p>Email:</p>
+        <input type="email" name="userEmail" id="userEmail" placeholder="Enter Your Email Here"><br />
+        <p>Password:</p>
+        <input type="password" name="userPassword" id="userPassword" maxlength="25" minlength="6" placeholder="Enter Your Password Here"><br />
+    </div>
+
+    <br />
+    <div class="button">
+        <button onclick="signUp()">Signup</button>
+    </div>
+    <br />
+    <hr>
+    <div class="stat">
+        <p>Already Have an Account? Log in <a href="login.html">Here</a></p>
+    </div>
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
